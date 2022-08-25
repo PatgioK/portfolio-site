@@ -50,28 +50,28 @@
     ],
     "skills":[
       {
-        "name":"React & Redux",
+        "name":"React & Redux"
       },
       {
-        "name":"Typescript",
+        "name":"Typescript"
       },
       {
-        "name":"PostgreSQL",
+        "name":"PostgreSQL"
       },
       {
-        "name":"Java",
+        "name":"Java"
       },
       {
-        "name":"HTML",
+        "name":"HTML"
       },
       {
-        "name":"CSS",
+        "name":"CSS"
       },
       {
-        "name":"Git",
+        "name":"Git"
       },
       {
-        "name":"C++",
+        "name":"C++"
       }
     ]
   },
