@@ -43,19 +43,30 @@ header {
 .me{
     width: 24rem;
     height: 30rem;
-    /* position: absolute; */
-    /* left: calc(50% - 12rem); */
-    margin-top: 4rem;
-    margin-bottom: 4 rem;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left: calc(50% - 12rem);
 }
 
 /* Media Queries MEDIUM device size */
 @media screen and (max-width: 1024px) {
+    .container {
+        /* background: red; */
+    }
+    header {
+        height: 68vh;
+    }
 }
 
 
 /* Media Queries SMALL device size */
 @media screen and (max-width: 600px) {
+    .container {
+        /* background: blue; */
+    }
+    header {
+        height: 100vh;
+    }
+    .header__socials, .scroll__down {
+        display:none;
+    }
 }
