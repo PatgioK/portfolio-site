@@ -1,0 +1,33 @@
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    /* z-index makes float over */
+    z-index: 2; 
+    position: fixed;
+    /* to position middle and off bottom*/
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    /* gap between */
+    display: flex;
+    gap: 0.9rem;
+    /* curve borders */
+    border-radius: 3rem;    
+    /* blur background with semi transparent background*/
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    /* color: var(--color-light); */
+    font-size: 1.2rem;
+}
+
+nav a.active {
+    background: var(--color-bg);
+    /* color: var(--color-light); */
+}

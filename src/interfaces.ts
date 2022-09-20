@@ -1,8 +1,8 @@
 
 export interface resumeData {
-    main: main[],
-    resume: resume[],
-    portfolio: portfolio[]
+    main: main,
+    resume: resume,
+    portfolio: portfolio
   }
   
   export interface project {

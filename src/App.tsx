@@ -6,6 +6,7 @@ import About from './Components/about/About';
 import Footer from './Components/footer/Footer';
 import Header from './Components/header/Header'
 import Nav from './Components/nav/Nav'
+import Contact from './Components/contact/Contact'
 import Portfolio from './Components/portfolio/Portfolio';
 import { resumeData } from './interfaces';
 
@@ -29,8 +30,9 @@ const App = () => {
     <>
       <Header />
       <Nav />
-      <About />
+      <About data={data}/>
       <Portfolio />
+      <Contact />
       <Footer />
       {/* <button onClick={() => console.log(data)}>resumedata</button> */}
     </>
