@@ -11,15 +11,6 @@ header {
     position: relative;
 
 }
-
-.me {
-    align-items: center;
-    height: 500px;
-    width: 500px;
-    display: block;
-    margin: auto;
-}
-
 /* call to action */
 .cta {
     margin-top: 3rem;
@@ -38,5 +29,33 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
-    margin-bottom: 5rem;
+}
+/* little bar under react icon links */
+.header__socials::after {
+    content:'';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/* image */
+.me{
+    width: 24rem;
+    height: 30rem;
+    /* position: absolute; */
+    /* left: calc(50% - 12rem); */
+    margin-top: 4rem;
+    margin-bottom: 4 rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media Queries MEDIUM device size */
+@media screen and (max-width: 1024px) {
+}
+
+
+/* Media Queries SMALL device size */
+@media screen and (max-width: 600px) {
 }

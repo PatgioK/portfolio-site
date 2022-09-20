@@ -3,7 +3,6 @@ import './header.css'
 import './CTA';
 import CTA from './CTA';
 import pfp from '../../assets/pfp.png'
-import pffp from '../../assets/profilepic.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
