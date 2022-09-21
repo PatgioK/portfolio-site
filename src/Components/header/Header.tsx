@@ -18,7 +18,6 @@ const Header = (props: headerProps) => {
         <h1>{props.data?.main.name}</h1>
         <h5 className='text-light'>{props.data?.main.occupation}</h5>
 
-        {/* <HeaderSocials /> */}
         <div className='me'>
           <img src={pfp} alt="me" width='500' height='500'/>
         </div>
