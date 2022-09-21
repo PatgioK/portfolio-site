@@ -1,10 +1,21 @@
 
+.about__content {
+    font-weight: 600;
+}
 
+.about__technical p {
+    font-weight: 300;
+
+}
+.about__personal p {
+    font-weight: 300;
+
+}
 
 
 .about__socials{
     margin-left: 1%;
-    font-size: 1rem;
+    font-size: 2.5rem;
 }
 
 .about__socials a {
@@ -15,10 +26,16 @@
 
 /* Media Queries MEDIUM device size */
 @media screen and (max-width: 1024px) {
+    .about__socials{
+        font-size: 1.5rem;
+    }
 }
 
 
 /* Media Queries SMALL device size */
 @media screen and (max-width: 600px) {
+    .about__socials{
+        font-size: 1.5rem;
+    }
     
 }
