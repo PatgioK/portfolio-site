@@ -1,0 +1,53 @@
+
+.contact__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 5rem;
+}
+
+.contact__image-bg {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    border-radius: 2rem;
+}
+
+.contact__image-pic{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.contact__image-pic:hover {
+    transform: rotate(0deg);
+}
+
+.contact__content {
+    margin-top: 40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Media Queries MEDIUM device size */
+@media screen and (max-width: 1024px) {
+    .contact__container{
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .contact__content {
+        margin-top: 20%;
+    }
+}
+
+
+/* Media Queries SMALL device size */
+@media screen and (max-width: 600px) {
+    .contact__content {
+        margin-top: 20%;
+    }
+    
+}

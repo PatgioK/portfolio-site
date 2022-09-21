@@ -3,7 +3,12 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer__container">
+      <br />
+      <br />
+      <br />
+      Built by Patgio Kwok, 2022
+    </div>
   )
 }
 
