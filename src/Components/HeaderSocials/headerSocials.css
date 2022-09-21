@@ -1,0 +1,18 @@
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 0.8rem;
+    position: fixed;
+    left: 10px;
+    bottom: 3rem;
+}
+/* little bar under react icon links */
+.header__socials::after {
+    content:'';
+    width: 1px;
+    height: 4rem;
+    background: var(--color-primary);
+}

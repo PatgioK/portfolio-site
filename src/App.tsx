@@ -9,6 +9,7 @@ import Nav from './Components/nav/Nav'
 import Contact from './Components/contact/Contact'
 import Portfolio from './Components/portfolio/Portfolio';
 import { resumeData } from './interfaces';
+import HeaderSocials from './Components/HeaderSocials/HeaderSocials';
 
 const axios = require('axios').default;
 
@@ -29,6 +30,7 @@ const App = () => {
   return (
     <>
       <Header data={data}/>
+      <HeaderSocials />
       <Nav />
       <About data={data}/>
       <Portfolio />

@@ -18,6 +18,7 @@ const About = (props: aboutProps) => {
         <p>{props.data?.main.bio}</p>
       </div>
     </section>
+    <br />
       <AboutSocials />
     </div>
   )

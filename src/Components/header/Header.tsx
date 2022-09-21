@@ -3,7 +3,6 @@ import './header.css'
 import './CTA';
 import CTA from './CTA';
 import pfp from '../../assets/pfp.png'
-import HeaderSocials from './HeaderSocials'
 import { resumeData } from '../../interfaces'
 
 
@@ -19,7 +18,7 @@ const Header = (props: headerProps) => {
         <h1>{props.data?.main.name}</h1>
         <h5 className='text-light'>{props.data?.main.occupation}</h5>
 
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
         <div className='me'>
           <img src={pfp} alt="me" width='500' height='500'/>
         </div>

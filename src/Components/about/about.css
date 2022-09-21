@@ -4,6 +4,11 @@
 
 .about__socials{
     margin-left: 5%;
+    
+}
+
+.about__socials a {
+    margin-right: 15px;
 }
 
 
