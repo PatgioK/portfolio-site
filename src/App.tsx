@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <>
-      <Header />
+      <Header data={data}/>
       <Nav />
       <About data={data}/>
       <Portfolio />
