@@ -45,7 +45,8 @@ body {
   /* background: #0c5725; */
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  /* background-image: url(../src/assets/bg-texture.png); */
+  background-image: url(../public/images/bg-texture.png);
 }
 
 /* GENERAL STYLES */

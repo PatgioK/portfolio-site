@@ -19,7 +19,7 @@ const Header = (props: headerProps) => {
         <h5 className='text-light'>{props.data?.main.occupation}</h5>
 
         <div className='me'>
-          <img src={pfp} alt="me" width='500' height='500'/>
+          <img src={process.env.PUBLIC_URL + `/images/pfp.png`} alt="me" width='500' height='500'/>
         </div>
         <div>{props.data?.main.description}</div>
         <CTA />

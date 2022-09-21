@@ -35,7 +35,7 @@ const App = () => {
       <Nav />
       <About data={data}/>
       <Experience skillsfront={data.resume.skillsfront} skillsback={data.resume.skillsback} skillsother={data.resume.skillsother}/>
-      <Portfolio />
+      <Portfolio projects={data.portfolio.projects}/>
       <Contact />
       <Footer />
       {/* <button onClick={() => console.log(data)}>resumedata</button> */}
