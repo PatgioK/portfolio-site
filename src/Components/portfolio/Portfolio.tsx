@@ -26,6 +26,9 @@ const Portfolio = (props: portfolio) => {
                 return <div className="tech-item" key={id}>{tech}</div>
               })}
             </div>
+            <div className="info">
+              <h2>{element.category}</h2>
+            </div>
             <div className="mobile-desc">
               {element.category}
             </div>

@@ -64,18 +64,26 @@
       },
       {
         "title":"Reddit Clone",
-        "category":"Fullstack clone of Reddit built with Ruby on Rails",
+        "category":"Fullstack clone of Reddit built with Ruby on Rails. Has Login and Authorization, Trending and Voting Features",
         "image":"redditclone.png",
         "url":"",
         "tech": ["Ruby", "Ruby on Rails", "PostgreSQL", "Authentication", "Authorization"],
         "git": "https://github.com/PatgioK/reddit-clone"
       },
       {
-        "title": "Car Ownership App",
-        "category": "Fullstack app with Rails API backend and React frontend",
-        "image":"azureportfolio.png",
+        "title": "Car Ownership App Frontend",
+        "category": "Frontend single page App made with React. All custom CRUD functions and dynamic display",
+        "image":"carpplfront.png",
         "url": "",
-        "tech": ["Ruby on Rails", "React", "Typescript", "PostgreSQL"],
+        "tech": ["Typescript", "React", "CRUD" ],
+        "git": "https://github.com/PatgioK/carpeoplefront2"
+      },
+      {
+        "title": "Car Ownership App Backend",
+        "category": "Rails API backend for a Car Ownership App",
+        "image":"carpplback.png",
+        "url": "",
+        "tech": ["Ruby on Rails", "React", "PostgreSQL"],
         "git": "https://github.com/PatgioK/carpeopleback"
       },
       {
