@@ -48,50 +48,67 @@
                         "Contributed to daily agile scrum meetings, code reviews, technical documentation, and sprint planning"]
       }
     ],
-    "skills":[
-      {
-        "name":"React & Redux"
-      },
-      {
-        "name":"Typescript"
-      },
-      {
-        "name":"PostgreSQL"
-      },
-      {
-        "name":"Java"
-      },
-      {
-        "name":"HTML"
-      },
-      {
-        "name":"CSS"
-      },
-      {
-        "name":"Git"
-      },
-      {
-        "name":"C++"
-      }
-    ]
+    "skillsfront": ["React", "Redux", "Typescript", "Three.js"],
+    "skillsback": ["Ruby on Rails", "PostgreSQL", "Prisma", "Express", "Node.js"],
+    "skillsother": ["Java", "C++", "C#", "Win-Forms", "Azure"]
   },
   "portfolio":{
     "projects": [
       {
         "title":"Reddit Clone",
         "category":"Fullstack clone of Reddit built with Ruby on Rails",
-        "image":"test1.jpg",
+        "image":"redditclone.png",
         "url":"https://github.com/PatgioK/reddit-clone",
-        "tech": ["Ruby on Rails"],
+        "tech": ["Ruby", "Ruby on Rails", "PostgreSQL", "Authentication", "Authorization"],
         "git": "https://github.com/PatgioK/reddit-clone"
+      },
+      {
+        "title": "Car Ownership App",
+        "category": "Fullstack app with Rails API backend and React frontend",
+        "image":"azureportfolio.png",
+        "url": "https://github.com/PatgioK/carpeoplefront2",
+        "tech": ["Ruby on Rails", "React", "Typescript", "PostgreSQL"],
+        "git": "https://github.com/PatgioK/carpeopleback"
       },
       {
         "title":"Pathfinding Visualizer",
         "category":"A React web app for visualizing different pathfinding algorithms",
-        "image":"pathvis.jpg",
+        "image":"pathfind.png",
         "url":"https://patgiok.github.io/pathfindingvisualizer/",
         "tech": ["React", "Javascript"],
         "git": "https://github.com/PatgioK/pathfindingvisualizer"
+      },
+      {
+        "title":"Handwritten Number Neural Net",
+        "category": "A Win-Form app written in C#. Takes a hand drawn number as input and guesses the number",
+        "image": "neuralnet.png",
+        "url": "https://github.com/PatgioK/NeuralNet",
+        "tech": ["C#", "Neural Network", "Win-Form"],
+        "git": "https://github.com/PatgioK/NeuralNet"
+      },
+      {
+        "title":"Sorting Visualizer",
+        "category": "A react web app for visualizing sorting algorithms hosted on Azure",
+        "image": "azuresort.png",
+        "url": "https://sortingvisualizer.azurewebsites.net/",
+        "tech": ["React", "Javascript", "Azure"],
+        "git": "https://github.com/PatgioK/SortingVisualizer"
+      },
+      {
+        "title":"Azure Portfolio",
+        "category": "Basic site to familiarize myself with Azure",
+        "image": "azureportfolio.png",
+        "url": "http://patgiok.azurewebsites.net/",
+        "tech": ["Javascript", "Azure"],
+        "git": ""
+      },
+      {
+        "title":"Sound Wave Editor",
+        "category": "A Win-Form app written in C#. Visualizes a sound wave and allows editing by passing through a filter",
+        "image": "waver.png",
+        "url": "https://github.com/PatgioK/SoundWave-Editor",
+        "tech": ["C#", "Digital Processing", "Win-Form", "WAV"],
+        "git": "https://github.com/PatgioK/SoundWave-Editor"
       }
     ]
   }

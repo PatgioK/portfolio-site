@@ -11,6 +11,7 @@ import Portfolio from './Components/portfolio/Portfolio';
 import { resumeData } from './interfaces';
 import HeaderSocials from './Components/HeaderSocials/HeaderSocials';
 import resdata from '../src/resumeData.json'
+import Experience from './Components/experience/Experience';
 const axios = require('axios').default;
 
 
@@ -33,6 +34,7 @@ const App = () => {
       <HeaderSocials />
       <Nav />
       <About data={data}/>
+      <Experience skillsfront={data.resume.skillsfront} skillsback={data.resume.skillsback} skillsother={data.resume.skillsother}/>
       <Portfolio />
       <Contact />
       <Footer />

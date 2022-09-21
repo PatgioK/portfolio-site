@@ -7,12 +7,13 @@
     gap: 0.8rem;
     position: fixed;
     left: 10px;
-    bottom: 3rem;
+    bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 /* little bar under react icon links */
 .header__socials::after {
     content:'';
     width: 1px;
-    height: 4rem;
+    height: 6rem;
     background: var(--color-primary);
 }
