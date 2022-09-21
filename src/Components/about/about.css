@@ -12,3 +12,13 @@
 }
 
 
+
+/* Media Queries MEDIUM device size */
+@media screen and (max-width: 1024px) {
+}
+
+
+/* Media Queries SMALL device size */
+@media screen and (max-width: 600px) {
+    
+}

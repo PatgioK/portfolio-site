@@ -9,7 +9,7 @@ interface skillProps {
 const SkillCard = (props: skillProps) => {
     const skills = props.skills
   return (
-    <div >
+    <div className='experience__title'>
         <h3>{props.title}</h3>
         <SkillList skills={skills}/>
     </div>
