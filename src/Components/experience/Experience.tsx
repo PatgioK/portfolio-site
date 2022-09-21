@@ -10,7 +10,7 @@ interface expProps {
 
 const Experience = (props: expProps) => {
   return (
-    <section id='#experience'>
+    <section id='experience'>
         <h5>Skills Gained</h5>
         <h2>Technologies I've Used</h2>
         <div className='container experience__container'>
