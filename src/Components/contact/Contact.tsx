@@ -13,6 +13,7 @@ export default function Contact() {
         <div className="contact__content">
           <p>I'm looking for new opportunities! Whether you're looking to hire me, or want to collaborate.. Send me an Email!</p>
           <div>
+            <br />
           <a href="mailto:patgiok@gmail.com" className='btn btn-primary'>Say Hello</a>
           
           </div>
