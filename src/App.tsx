@@ -50,8 +50,8 @@ const App = () => {
       <HeaderSocials />
       <Nav />
       <About data={data}/>
-      <Experience skillsfront={data.resume.skillsfront} skillsback={data.resume.skillsback} skillsother={data.resume.skillsother}/>
       <Portfolio projects={data.portfolio.projects}/>
+      <Experience skillsfront={data.resume.skillsfront} skillsback={data.resume.skillsback} skillsother={data.resume.skillsother}/>
       <Contact />
       <Footer />
       {/* <button onClick={() => console.log(data)}>resumedata</button> */}
