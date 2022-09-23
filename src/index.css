@@ -34,7 +34,7 @@
   position: fixed;
   background: rgb(0, 153, 255);
   z-index: 3;
-  animation: loaderdiv 0.3s ease-out 1.1s 1 normal forwards;
+  animation: loaderdiv 0.3s ease-out 1s 1 normal forwards;
 
 }
 
@@ -46,7 +46,7 @@
   border: 8px solid;
   border-color: #3d5af1 transparent #3d5af1 transparent;
   border-radius: 50%;
-  animation: spin-anim 0.8s linear 1 normal forwards;
+  animation: spin-anim 0.5s linear 1 normal forwards;
 }
 
 @keyframes spin-anim {
