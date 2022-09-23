@@ -12,8 +12,8 @@ const Portfolio = (props: portfolio) => {
       <div className="container portfolio__container">
 
         {props.projects.map((element, id) => {
-          const gitbutton = <><a href="" target="_blank" className='btn'><BsGithub/> Github Repo</a></>;
-          const livebutton = <><a href="" target="_blank" className='btn btn-primary'><AiOutlineLink/> Live Demo</a></>;
+          const gitbutton = <><a href={element.git} target="_blank" rel="noopener noreferrer" className='btn'><BsGithub/> Github Repo</a></>;
+          const livebutton = <><a href={element.url} target="_blank" rel="noopener noreferrer" className='btn btn-primary'><AiOutlineLink/> Live Demo</a></>;
 
           return <div className='portfolio__item' key={id}>
             <h3>{element.title}</h3>

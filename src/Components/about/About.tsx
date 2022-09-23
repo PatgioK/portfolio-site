@@ -20,7 +20,7 @@ const About = (props: aboutProps) => {
       </div>
       <div className="about__technical">
         <h4>Technical</h4>
-        <p>I'm a recent graduate of BCIT's Computer Systems Technology Program, where I learned industry standards for coding and project management. I am most experienced with Ruby on Rails and React & Redux for quick prototyping and scalability.
+        <p>I'm a recent graduate of BCIT's Computer Systems Technology Program, where I learned industry standards for coding and project management. I am most experienced with Ruby on Rails and React & Redux for quick prototyping.
         </p>
         <br />
       </div>

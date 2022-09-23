@@ -1,6 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import About from './Components/about/About';
 import Footer from './Components/footer/Footer';
@@ -10,10 +9,12 @@ import Contact from './Components/contact/Contact'
 import Portfolio from './Components/portfolio/Portfolio';
 import { resumeData } from './interfaces';
 import HeaderSocials from './Components/HeaderSocials/HeaderSocials';
-import resdata from '../src/resumeData.json'
 import Experience from './Components/experience/Experience';
-const axios = require('axios').default;
 
+import resdata from '../src/resumeData.json'
+
+// cant use axios get for local file?
+// const axios = require('axios').default;
 
 const App = () => {
 
