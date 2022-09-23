@@ -5,6 +5,10 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
 export default function Contact() {
+  
+  const REACT_APP_EMAILJS_SERVICE_ID: string = process.env.REACT_APP_EMAILJS_SERVICE_ID!;
+  const REACT_APP_EMAILJS_TEMPLATE_ID: string = process.env.REACT_APP_EMAILJS_TEMPLATE_ID!;
+  const REACT_APP_EMAILJS_PUBLIC_KEY: string = process.env.REACT_APP_EMAILJS_PUBLIC_KEY!;
 
   // https://www.emailjs.com/docs/examples/reactjs/
 
@@ -15,7 +19,8 @@ export default function Contact() {
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_6fam00b', 'template_jj72sjn', form.current as HTMLFormElement, '_uGKsTxhg6SLylfs-')
+    // emailjs.sendForm('service_6fam00b', 'template_jj72sjn', form.current as HTMLFormElement, '_uGKsTxhg6SLylfs-')
+    emailjs.sendForm(REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_TEMPLATE_ID, form.current as HTMLFormElement, REACT_APP_EMAILJS_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -27,15 +32,15 @@ export default function Contact() {
     <section id='contact'>
       <h5>Let's Talk</h5>
       <h2>Get in Touch</h2>
-      {/* 
+
+      <div className='contact__header'>
       <p>I'm looking for new opportunities! Whether you're looking to hire me, or want to collaborate.. Send me an Email!</p>
-          <div>
-            <br />
-          <a href="mailto:patgiok@gmail.com" className='btn btn-primary'><AiOutlineMail />Say Hello</a>
-            <br />
-            <br />
-          
-          </div>  */}
+        <br />
+        <a href="mailto:patgiok@gmail.com" className='btn btn-primary'><AiOutlineMail />Say Hello</a>
+        <br />
+        <br />
+
+      </div>
       <div className="container contact__container">
         <div className="contact__image-bg">
           <img className='contact__image-pic' src={process.env.PUBLIC_URL + `/images/TP.jpg`} />

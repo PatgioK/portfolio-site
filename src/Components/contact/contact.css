@@ -1,3 +1,7 @@
+.contact__header{
+    text-align: center;
+}
+
 .contact__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -20,10 +24,6 @@
 
 .contact__image-pic:hover {
     transform: rotate(0deg);
-}
-
-.contact__form {
-    /* margin-top: 30%; */
 }
 
 .emailform {
@@ -53,10 +53,6 @@ textarea {
         gap: 5%;
         width: var(--container-width-md);
     }
-
-    .contact__form {
-        /* margin-top: 20%; */
-    }
 }
 
 
@@ -67,10 +63,6 @@ textarea {
         margin-left: auto;
         grid-template-columns: 1fr;
         width: var(--container-width-sm)
-    }
-
-    .contact__form {
-        /* margin-top: 20%; */
     }
 
     .contact__image-bg {
