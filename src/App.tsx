@@ -29,6 +29,7 @@ const App = () => {
   //     .catch((err: Error) => console.log(err))
   // }, [])
 
+  
   return (
     <>
       <Header data={data}/>
