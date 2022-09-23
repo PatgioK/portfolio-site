@@ -17,8 +17,15 @@ import resdata from '../src/resumeData.json'
 // const axios = require('axios').default;
 
 const App = () => {
-
+  const [loading, setLoading] = useState<boolean>(false);
   const [data, setData] = useState<resumeData | any>(resdata);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
 
   // useEffect(() => {
   //   axios.get('/resumeData.json')
@@ -32,6 +39,13 @@ const App = () => {
   
   return (
     <>
+    
+    <div className="loader-container">
+      <div className="spinner"></div>
+    </div>
+    <div className="loader-container2">
+      
+    </div>
       <Header data={data}/>
       <HeaderSocials />
       <Nav />
