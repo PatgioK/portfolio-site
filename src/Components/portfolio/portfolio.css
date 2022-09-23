@@ -12,7 +12,7 @@
     border-radius: 1.7rem;
     border: 3px solid transparent;
     transition: var(--transition);
-    height: fit-content;
+    height: 100%;
 }
 
 .portfolio__item:hover {
@@ -43,18 +43,6 @@
     width: 95%;
     height: 300px;
     object-fit: cover;
-}
-
-.portfolio__item-cta {
-    position: inherit;
-    padding-top: 10px;
-    display: flex;
-    gap: 1rem;
-    /* position: absolute; */
-    bottom: 0px;
-    z-index: 2;
-    /* padding-bottom: 5%; */
-    /* margin-bottom: 1rem; */
 }
 
 .techs {
@@ -103,6 +91,18 @@
 }
 
 
+.portfolio__item-cta {
+    position: absolute;
+    padding-top: 10px;
+    display: flex;
+    gap: 1rem;
+    /* position: absolute; */
+    bottom: 0;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+
+
 
 /* Media Queries MEDIUM device size */
 @media screen and (max-width: 1024px) {
@@ -113,6 +113,9 @@
 
     .mobile-desc {
         display: block;
+        position: relative;
+        /* padding: 10px; */
+        margin-bottom: 3rem;
     }
 
 }
