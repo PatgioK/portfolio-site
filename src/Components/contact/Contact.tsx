@@ -23,6 +23,7 @@ export default function Contact() {
     emailjs.sendForm(REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_TEMPLATE_ID, form.current as HTMLFormElement, REACT_APP_EMAILJS_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
+        form.current?.reset();
       }, (error) => {
         console.log(error.text);
       });
